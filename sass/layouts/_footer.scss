@@ -1,18 +1,14 @@
 .footer {
   background-color: var(--secondary-background-color);
   padding: 60px 0;
-  
-
 
   &-box {
     @media screen and (min-width: 1200px) {
       display: flex;
       justify-content: space-around;
     }
-    
-    align-items: baseline;
 
-   
+    align-items: baseline;
   }
 
   &__logo {
@@ -24,11 +20,10 @@
 
 .tablet-box {
   @media screen and (min-width: 768px) {
-  display: flex;
-  justify-content: space-around;
-  align-items: baseline;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
   }
-  
 }
 
 ////////Адрес///////
@@ -39,12 +34,10 @@
     margin-bottom: 0px;
     text-align: start;
   }
-  
 }
 
 .address {
   margin-top: 20px;
-
 
   &__item:not(:last-child) {
     margin-bottom: 9px;
@@ -87,11 +80,9 @@
   @media screen and (min-width: 768px) {
     margin-bottom: 0px;
   }
-     @media screen and (min-width: 1200px) {
-      margin-left: 70px;
-     }
-
-  
+  @media screen and (min-width: 1200px) {
+    margin-left: 70px;
+  }
 
   &__title {
     font-weight: 700;
@@ -103,9 +94,9 @@
     margin-bottom: 20px;
     text-align: center;
 
-      @media screen and (min-width: 1200px) {
-        text-align: start;
-        }
+    @media screen and (min-width: 1200px) {
+      text-align: start;
+    }
   }
 
   &__social-list {
@@ -140,81 +131,73 @@
 /////// Розсилка //////
 .form-box {
   @media screen and (min-width: 1200px) {
-    display: flex; 
+    display: flex;
   }
-  
 }
 
 .mailing-form {
   @media screen and (min-width: 1200px) {
-     margin-left: auto;
+    margin-left: auto;
+  }
+
+  &__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-background-color);
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 1200px) {
+      text-align: start;
+    }
+  }
+
+  &__input {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 50px;
+
+    @media screen and (min-width: 768px) {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      width: 450px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 358px;
+      margin-bottom: 0px;
     }
 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: var(--secondary-background-color);
+    padding: 0 0 0 15px;
+    color: var(--primary-background-color);
 
-&__title {
-        text-align: center;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: var(--primary-background-color);
-        margin-bottom: 20px;
+    &::placeholder {
+      font-size: 16px;
+      line-height: 1.25;
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
 
-        @media screen and (min-width: 1200px) {
-            text-align: start;
-          }
+  &__button-primary {
+    @media screen and (min-width: 1200px) {
+      margin-left: 12px;
     }
 
-    &__input {
-      width: 100%;
-      margin-bottom: 20px;
-     height: 50px;
-
-        @media screen and (min-width: 768px){
-          display: flex;
-          margin-left: auto;
-          margin-right: auto;
-          width: 450px;
-        }
-                @media screen and (min-width: 1200px) {
-                  width: 358px;
-                  margin-bottom: 0px;
-                }
-
-               
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-        border-radius: 4px;
-        background-color: var(--secondary-background-color);
-        padding: 0 0 0 15px;
-        color: var(--primary-background-color);
-        
-        &::placeholder {
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
-    }
-    }
-
-    &__button-primary {
-      
-      @media screen and (min-width: 1200px) {
-         margin-left: 12px;
-        }
-        
-        margin: 0 auto;
-        height: 50px;
-        min-width: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        padding: 0;
-    }
-
+    margin: 0 auto;
+    height: 50px;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+  }
 }
-
-
-
