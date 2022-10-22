@@ -113,7 +113,7 @@ body {
 }
 @media screen and (max-width: 479px) {
   .button-primary:hover, .button-primary:focus {
-    padding: 0;
+    padding: 5px 16px;
   }
 }
 
@@ -1230,6 +1230,11 @@ body {
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (max-width: 479px) {
+  .field-agree__button-primary {
+    margin-top: 12px;
+  }
 }
 
 .backdrop {
