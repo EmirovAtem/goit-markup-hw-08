@@ -1336,6 +1336,11 @@ body {
   text-decoration: none;
   color: var(--title-text-color);
 }
+@media screen and (max-width: 480px) {
+  .mob-menu__link {
+    font-size: 26px;
+  }
+}
 
 .mob-menu__link--current {
   color: var(--accent-color);
@@ -1365,7 +1370,7 @@ body {
 }
 @media screen and (max-width: 480px) {
   .mob-mail__link {
-    font-size: 27px;
+    font-size: 24px;
   }
 }
 
@@ -1412,6 +1417,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--accent-color);
   margin-right: 10px;
+}
+@media screen and (max-width: 480px) {
+  .mob-socials__link {
+    font-size: 10px;
+  }
 }
 
 .position-contact {

@@ -74,6 +74,10 @@ transition: var(--time-cubic);
         letter-spacing: 0.02em;
         text-decoration: none;
         color: var(--title-text-color);
+
+        @media screen and (max-width: 480px) {
+            font-size: 26px; 
+        } 
 }
 .mob-menu__link--current {
     color: var(--accent-color);
@@ -103,7 +107,7 @@ transition: var(--time-cubic);
         text-decoration: none;
 
         @media screen and (max-width: 480px){
-    font-size: 27px;
+    font-size: 24px;
 }
 }
 .mob-menu {
@@ -136,6 +140,10 @@ transition: var(--time-cubic);
         letter-spacing: 0.02em;
         color: var(--accent-color);
         margin-right: 10px;
+
+        @media screen and (max-width: 480px) {
+            font-size: 10px; 
+        } 
 }
 
 .position-contact {
