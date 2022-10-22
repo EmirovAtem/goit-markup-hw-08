@@ -1349,6 +1349,11 @@ body {
   color: var(--accent-color);
   text-decoration: none;
 }
+@media screen and (max-width: 480px) {
+  .mob-contact__link {
+    font-size: 24px;
+  }
+}
 
 .mob-mail__link {
   font-weight: 500;
@@ -1357,6 +1362,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   text-decoration: none;
+}
+@media screen and (max-width: 480px) {
+  .mob-mail__link {
+    font-size: 27px;
+  }
 }
 
 .mob-menu {
