@@ -8,6 +8,9 @@
   @media screen and (min-width: 1200px) {
     width: 528px;
   }
+  @media screen and (max-width: 479px) {
+    padding: 34px;
+  }
 
   padding: 40px;
   position: absolute;
@@ -117,6 +120,11 @@
   margin-top: 20px;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 479px) {
+     margin-top: 10px;
+  }
+
 
   &__agree-text {
     @media screen and (min-width: 1200px) {

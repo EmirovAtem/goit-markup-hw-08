@@ -1069,6 +1069,11 @@ body {
     width: 528px;
   }
 }
+@media screen and (max-width: 479px) {
+  .modal {
+    padding: 34px;
+  }
+}
 .modal__form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1190,6 +1195,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (max-width: 479px) {
+  .field-agree {
+    margin-top: 10px;
+  }
 }
 .field-agree__agree-text {
   font-size: 12px;
