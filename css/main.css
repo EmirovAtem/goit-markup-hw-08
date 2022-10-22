@@ -111,6 +111,11 @@ body {
   background-color: var(--button-active);
   cursor: pointer;
 }
+@media screen and (max-width: 479px) {
+  .button-primary:hover, .button-primary:focus {
+    padding: 0;
+  }
+}
 
 .button-secondary {
   background-color: var(--team-background-color);
@@ -1082,6 +1087,11 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+@media screen and (max-width: 479px) {
+  .modal__title {
+    font-size: 15px;
+  }
+}
 .modal__label {
   font-size: 12px;
   line-height: 1.17;
@@ -1133,9 +1143,9 @@ body {
 .modal__textarea:focus {
   border: 1px solid var(--accent-color);
 }
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 479px) {
   .modal__textarea {
-    height: 50px;
+    height: 80px;
   }
 }
 .modal::-webkit-input-placeholder {
